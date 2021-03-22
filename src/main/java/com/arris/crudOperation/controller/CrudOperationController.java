@@ -21,6 +21,8 @@ public class CrudOperationController {
 
 	@RequestMapping(value = "/getUserData/{id}", method = RequestMethod.GET)
 	public List<CrudOperationPojo> getMethod(@PathVariable int id) throws ParseException {
+		
+		System.out.println("into the controller");
 		List<CrudOperationPojo> list = new ArrayList();
 		System.out.println("inside the controller::::::::::::::::::");
 		System.out.println("your id is:" + id);
