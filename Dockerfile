@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/crudOperation-0.0.1-SNAPSHOT.jar crudOperation-0.0.1-SNAPSHOT.jar
+ADD target/docker-intrgration-jenkins.jar docker-intrgration-jenkins.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","crudOperation-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","docker-intrgration-jenkinsT.jar"]
