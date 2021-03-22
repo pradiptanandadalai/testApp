@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.arris</groupId>
 	<artifactId>crudOperation</artifactId>
-	<version>1.0.110-5-SNAPSHOT</version>
+	<version>8.1.0-SNAPSHOT</version>
 	<name>crudOperation</name>
 	<description>crudOperationproject for Spring Boot</description>
 	<properties>
@@ -56,7 +56,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>docker-intrgration-jenkins</finalName>
+		<finalName>docker-maven-jenkins</finalName>
 	</build>
 
 </project>
