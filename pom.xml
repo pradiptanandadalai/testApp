@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.4.4</version>
+		<version>2.1.0.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.arris</groupId>
 	<artifactId>crudOperation</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.110-5-SNAPSHOT</version>
 	<name>crudOperation</name>
 	<description>crudOperationproject for Spring Boot</description>
 	<properties>
@@ -56,6 +56,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>docker-intrgration-jenkins</finalName>
 	</build>
 
 </project>
