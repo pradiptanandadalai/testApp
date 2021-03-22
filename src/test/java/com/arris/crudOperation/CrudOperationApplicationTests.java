@@ -4,10 +4,14 @@ import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CrudOperationApplicationTests {
+public class CrudOperationApplicationTests {
+	
+	public CrudOperationApplicationTests() {
+		
+	}
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }
