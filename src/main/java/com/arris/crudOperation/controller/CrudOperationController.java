@@ -24,7 +24,7 @@ public class CrudOperationController {
 		
 		
 		List<CrudOperationPojo> list = new ArrayList();
-		System.out.println("inside the controller::::::::::::::::::");
+	
 		System.out.println("your id is:" + id);
 		list = crudOperationDao.getUserDetails(id);
 		return list;
