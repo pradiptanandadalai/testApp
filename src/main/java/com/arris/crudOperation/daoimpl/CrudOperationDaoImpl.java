@@ -26,7 +26,7 @@ public class CrudOperationDaoImpl implements CrudOperationDao {
 
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
-		String sql = "SELECT name, company FROM orchestrator_test.test_arris where id="+userId;
+		String sql = "SELECT name, company FROM company_details where id="+userId;
 		try {
 			con = DBConnection.getInstance().getConnection();
 			System.out.println("Sql :::" + sql);
