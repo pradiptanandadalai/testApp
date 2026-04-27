@@ -1,4 +1,4 @@
 FROM openjdk:8
-ADD target/docker-maven-jenkins.jar docker-maven-jenkins.jar
+ADD target/docker-maven-jenkins-2026.jar docker-maven-jenkins-2026.jar
 EXPOSE 8085
-ENTRYPOINT ["java","-jar","docker-maven-jenkins.jar"]
+ENTRYPOINT ["java","-jar","docker-maven-jenkins-2026.jar"]
